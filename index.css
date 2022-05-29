@@ -1,0 +1,31 @@
+@font-face {
+  font-family: facebook;
+  src: url(src/FACEBOLF.OTF);
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+h1 {
+  font-family: facebook;
+  color: #1877f2;
+}
+
+#newAccount {
+  color: white;
+  background-color: #36a420;
+}
+
+#jFacebook {
+  font-size: 54px;
+}
+
+#textFacebook {
+  font-size: 20px;
+}
+
+#textEnd {
+  margin-top: 2rem;
+  text-align: right;
+}

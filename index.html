@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Facebook - log in or sign up</title>
+
+    <link rel="icon" href="./src/ifacebook.png" type="image/icon type" />
+
+    <!-- Bootstrapp Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+
+    <!-- External css -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container position-absolute top-50 start-50 translate-middle">
+      <div class="row justify-content-around">
+        <div class="col-4 align-self-center">
+          <h1 id="jFacebook">facebook</h1>
+          <p id="textFacebook">Facebook helps you connect and share with the people in your life.</p>
+        </div>
+
+        <!-- Form Login -->
+        <div class="col-4 align-self-center">
+          <div class="card me-2" style="width: 24rem; height: 22rem">
+            <div class="card-body">
+              <form>
+                <div class="mb-3">
+                  <input type="email" class="form-control form-control-lg" id="email" placeholder="Email address or phone number" />
+                </div>
+                <div class="mb-3">
+                  <input type="password" class="form-control form-control-lg" id="password" placeholder="password" />
+                </div>
+                <button class="btn btn-primary btn-lg d-grid gap-2 col-12 mx-auto" type="submit">Login</button>
+
+                <p class="text text-center m-2">Forgotten password?</p>
+                <hr />
+
+                <button class="btn btn-lg d-grid gap-2 col-9 mx-auto m-4" id="newAccount">Create New Account</button>
+              </form>
+            </div>
+          </div>
+
+          <p id="textEnd"><b>Create a Page</b> for a celebrity, brand or business.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
